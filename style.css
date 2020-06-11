@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100vh;
+    outline: 2px solid black;
+}
+
+.nav-link{
+    list-style-type: none;
+    border-top: 1px solid black;
+    padding: 5px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 320px;
+    padding: 20px;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.main-section p{
+    padding: 5px;
+}
