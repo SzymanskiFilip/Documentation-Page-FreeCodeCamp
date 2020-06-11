@@ -11,6 +11,7 @@
     height: 100vh;
     outline: 2px solid black;
     background-color: antiquewhite;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 .nav-link{
@@ -30,6 +31,7 @@
     position: absolute;
     margin-left: 320px;
     padding: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 .main-section{
@@ -38,4 +40,10 @@
 
 .main-section p{
     padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    #main-doc{
+        background-color: cadetblue;
+    }
 }
